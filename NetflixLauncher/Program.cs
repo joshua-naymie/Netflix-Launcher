@@ -49,9 +49,10 @@ namespace NetflixLauncher
 
             foreach (Process process in processes)
             {
-                if (process.ProcessName.Equals(PROCESS_NAME)
-                && process.MainWindowTitle.Equals(WINDOW_TITLE))
+                //Console.WriteLine("TITLE: " + process.MainWindowTitle + " || NAME: " + process.ProcessName);
+                if (process.ProcessName.Equals(PROCESS_NAME))
                 {
+                    //Console.WriteLine("HERE");
                     process.Kill();
                     break;
                 }
@@ -112,7 +113,9 @@ namespace NetflixLauncher
 
         private static void DetectNetflixClosed(int netflixId)
         {
-            Process.GetProcessById(netflixId).WaitForExit();
+            //Console.WriteLine(netflixId);
+            //Process.GetProcessById(netflixId).WaitForExit();
+            //Process.GetProcessesByName("WWAHost").WaitForExit();
         }
 
         //private static void DetectNetflixClosed(int netflixId)

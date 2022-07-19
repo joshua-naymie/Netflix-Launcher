@@ -17,3 +17,14 @@ G:\Documents\Visual Studio 2017\Projects\NetflixLauncher\NetflixLauncher\obj\Deb
 G:\Documents\Visual Studio 2017\Projects\NetflixLauncher\NetflixLauncher\obj\Debug\NetflixLauncher.csproj.CopyComplete
 G:\Documents\Visual Studio 2017\Projects\NetflixLauncher\NetflixLauncher\obj\Debug\NetflixLauncher.exe
 G:\Documents\Visual Studio 2017\Projects\NetflixLauncher\NetflixLauncher\obj\Debug\NetflixLauncher.pdb
+G:\Documents\Dropbox\Software Dev\Visual Studio\Netflix-Launcher\NetflixLauncher\bin\Debug\NetflixLauncher.exe.config
+G:\Documents\Dropbox\Software Dev\Visual Studio\Netflix-Launcher\NetflixLauncher\bin\Debug\NetflixLauncher.exe
+G:\Documents\Dropbox\Software Dev\Visual Studio\Netflix-Launcher\NetflixLauncher\bin\Debug\NetflixLauncher.pdb
+G:\Documents\Dropbox\Software Dev\Visual Studio\Netflix-Launcher\NetflixLauncher\bin\Debug\WindowsInput.dll
+G:\Documents\Dropbox\Software Dev\Visual Studio\Netflix-Launcher\NetflixLauncher\bin\Debug\WindowsInput.xml
+G:\Documents\Dropbox\Software Dev\Visual Studio\Netflix-Launcher\NetflixLauncher\obj\Debug\NetflixLauncher.csproj.AssemblyReference.cache
+G:\Documents\Dropbox\Software Dev\Visual Studio\Netflix-Launcher\NetflixLauncher\obj\Debug\NetflixLauncher.csproj.SuggestedBindingRedirects.cache
+G:\Documents\Dropbox\Software Dev\Visual Studio\Netflix-Launcher\NetflixLauncher\obj\Debug\NetflixLauncher.csproj.CoreCompileInputs.cache
+G:\Documents\Dropbox\Software Dev\Visual Studio\Netflix-Launcher\NetflixLauncher\obj\Debug\NetflixLauncher.csproj.CopyComplete
+G:\Documents\Dropbox\Software Dev\Visual Studio\Netflix-Launcher\NetflixLauncher\obj\Debug\NetflixLauncher.exe
+G:\Documents\Dropbox\Software Dev\Visual Studio\Netflix-Launcher\NetflixLauncher\obj\Debug\NetflixLauncher.pdb
