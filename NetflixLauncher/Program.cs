@@ -39,7 +39,7 @@ namespace NetflixLauncher
 
             EnterFullscreenNetflix(netflixProcess);
 
-            //DetectNetflixClosed(netflixProcess.Id);
+            DetectNetflixClosed(netflixProcess.Id);
         }
 
 
