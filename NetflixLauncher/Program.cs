@@ -17,8 +17,8 @@ namespace NetflixLauncher
         static extern bool SetForegroundWindow(IntPtr hWnd);
 
         private const
-        String WWAHOST = "WWAHost",
-               NETFLIX = "Netflix";
+        String PROCESS_NAME = "ApplicationFrameHost",
+               WINDOW_TITLE = "Netflix";
 
         static void Main(string[] args)
         {
@@ -39,7 +39,7 @@ namespace NetflixLauncher
 
             EnterFullscreenNetflix(netflixProcess);
 
-            DetectNetflixClosed(netflixProcess.Id);
+            //DetectNetflixClosed(netflixProcess.Id);
         }
 
 
@@ -47,9 +47,10 @@ namespace NetflixLauncher
         {
             Process[] processes = Process.GetProcesses();
 
-            foreach(Process process in processes)
+            foreach (Process process in processes)
             {
-                if(process.ProcessName.Equals(WWAHOST))
+                if (process.ProcessName.Equals(PROCESS_NAME)
+                && process.MainWindowTitle.Equals(WINDOW_TITLE))
                 {
                     process.Kill();
                     break;
@@ -84,14 +85,15 @@ namespace NetflixLauncher
         private static bool FindNetflix(ref Process netflixProcess)
         {
             Process[] processlist = Process.GetProcesses();
-            
+
             bool netflixFound = false;
 
             foreach (Process process in processlist)
             {
-
-                if ((process.MainWindowTitle.Equals(NETFLIX)) && (process.ProcessName.Equals(WWAHOST)))
+                //Console.WriteLine("TITLE: " + process.MainWindowTitle + " || NAME: " + process.ProcessName);
+                if ((process.MainWindowTitle.Equals(WINDOW_TITLE)) && (process.ProcessName.Equals(PROCESS_NAME)))
                 {
+                    //Console.WriteLine("FOUND!!!");
                     netflixProcess = process;
                     netflixFound = true;
                     break;
